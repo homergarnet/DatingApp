@@ -1,5 +1,22 @@
 ------------------------------------------------------------------------------------------------------
+ANGULAR HELP COMMANDS
+    ng g -h
 
+CREATE component  (--skips-tests) to remove un nessary files paste it in src/app 
+    ng g c nav --skip-tests
+
+Angular template forms
+#loginForm="ngForm"
+CREATING angular Services
+    ng g s account --skip-tests
+
+------------------------------------------------------------------------------------------------------
+connections of files and changes
+in app component
+app.component.ts -> app.component.html -> app.component.css -> app.module.ts -> app.routing.module.ts
+
+in nav component
+nav.component.ts ->app.component.html ->app.component.css -> account.service.ts
 ------------------------------------------------------------------------------------------------------
 
 
